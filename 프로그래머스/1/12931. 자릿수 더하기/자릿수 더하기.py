@@ -4,9 +4,9 @@ def solution(n):
     copy = str(n)
     arr[:] = copy
 
-    arr = [int(i) for i in arr]
-
-    for i in range(len(arr)) :
+    for i in range (len(arr)) :
+        arr[i] = int(arr[i])
         answer += arr[i]
+        
 
     return answer
